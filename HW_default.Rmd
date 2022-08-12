@@ -1,0 +1,84 @@
+---
+title: "Insert HW Number here"
+author: "Insert your name here"
+date: "Insert date here"
+output: html_document
+---
+
+## Load packages and data
+
+```{r load-packages, message = FALSE}
+library(fpp3)
+# install and load any package necessary
+```
+
+## Questions
+
+### Exercise 1
+
+```{r graph_1, fig.height=3}
+ggplot(data=us_gasoline)+
+  geom_line(aes(x=Week, y= Barrels))
+#include  the output + code
+```
+
+### Exercise 2
+
+```{r table_!, echo = FALSE,  fig.height=3}
+us_gasoline
+# include only the output
+```
+
+### Exercise 3
+
+Some math examples $$
+\hat{S} = \frac{\sum_{t=1}^{T}(y_{t}-\bar{y})^3}{\hat{\sigma}^{3}}$$
+
+My favorite math formula is $\bar{x} = \frac{\sum_{t=1}^T x_t}{T}$
+
+```{=tex}
+\begin{align*}
+a & = b \\
+X &\sim {\sf Norm}(10, 3) \\
+5 & \le 10
+\end{align*}
+```
+For more math examples, please check this [website](https://rpruim.github.io/s341/S19/from-class/MathinRmd.html)
+
+### Exercise 4
+
+Bold - **Bold**
+
+Italic - *Italic*
+
+blocked -`blocked`
+
+### Exercise 5
+
+-   ahauhauhauahua
+
+    -   auhauhauhauhauah
+
+    -   auhauhauhauhauah
+
+    -   uauahauhauhauah
+
+            - auhauhauahuahau
+
+1.  uahuahauh
+    1.  aaauhauhauha
+
+        1.  auhauhauhaua
+
+        2.  aauhauhauah
+
+        3.  auhuahauhau
+    
+    2. uahuahaayga
+
+
+Remove this text, and add your answer for Exercise 5 here.
+
+### Exercise 6
+
+Remove this text, and add your answer for Exercise 6 here.
