@@ -271,6 +271,15 @@ prison%>%
 
 #### pivot_longer
 
+purchase<-data.frame(customer_id = c(1,2), item_1 = c("bread","milk"), item_2 = c("milk","paper"), item_3=c("banana","apple"))
+purchase<-as.tibble(purchase)
+
+longer_purchase<-purchase%>%
+  pivot_longer(cols = item_1:item_3,
+   names_to = "item_no",
+   values_to="item")
+
+
 
 
 ## ANSETT ----------------------------------------------------------------------
